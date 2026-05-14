@@ -1,6 +1,13 @@
 # RoboticsProject
 Testing and using YOLO v8 in a raspberry pi controlled robot made with Meccano motors.
 
+# Schematics
+
+# Testing Procedures0
+- Use voltmeter to test battery voltage
+- Sodder battery onto voltage converter
+- Test output voltage
+
 # Hardware
 - Raspberry Pi 3
 <img width="1453" height="1048" alt="image" src="https://github.com/user-attachments/assets/0c40013c-904d-46ed-8371-18aa7c98522c" />
