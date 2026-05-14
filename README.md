@@ -11,16 +11,22 @@ Testing and using YOLO v8 in a raspberry pi controlled robot made with Meccano m
 - Ribbon Cable
 <img width="1729" height="781" alt="image" src="https://github.com/user-attachments/assets/79ef2a3d-ef68-47ca-b2ee-0e9a471f0578" />
 
+- TB6612FNG Driver Module DI
+<img width="1429" height="747" alt="image" src="https://github.com/user-attachments/assets/c69d6591-e270-4a21-a1d8-116b5e098a97" />
+
+- DC-DC Voltage Converter
+<img width="1621" height="808" alt="image" src="https://github.com/user-attachments/assets/a09945ec-48d7-4b95-971f-519496ed8d6f" />
+
 - RYOBI 18V Lithium Battery
 <img width="1638" height="1244" alt="image" src="https://github.com/user-attachments/assets/34d60afd-93e4-4849-86bb-609de20b2227" />
 
 - Battery Adaptor
 <img width="980" height="1268" alt="image" src="https://github.com/user-attachments/assets/3de1520a-21c6-4fa6-8275-a74764015b4b" />
 
-- Meccano Meccanoid G15 Motor 
+- Meccano Meccanoid G15 Motor 2x
 <img width="1023" height="1777" alt="image" src="https://github.com/user-attachments/assets/69c64957-39de-408e-9dae-f7683faf8210" />
 
-- Meccano Meccanoid G15 Wheel
+- Meccano Meccanoid G15 Wheel 2x
 <img width="1172" height="1173" alt="image" src="https://github.com/user-attachments/assets/3f43cae8-58c7-4887-8473-0d43752ea181" />
 
 - Meccano Meccanoid g15 Motor Shell
