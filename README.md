@@ -3,10 +3,13 @@ Testing and using YOLO v8 in a raspberry pi controlled robot made with Meccano m
 
 # Schematics
 
-# Testing Procedures0
+# Testing Procedures
 - Use voltmeter to test battery voltage
 - Sodder battery onto voltage converter
 - Test output voltage
+- Ensure GPIO is Enabled
+sudo journalctl -u pigpiod
+sudo ss -ltmp | grep pigpiod
 
 # Hardware
 - Raspberry Pi 3
@@ -38,3 +41,20 @@ Testing and using YOLO v8 in a raspberry pi controlled robot made with Meccano m
 
 - Meccano Meccanoid g15 Motor Shell
 <img width="1217" height="1240" alt="image" src="https://github.com/user-attachments/assets/4a1605a9-9059-4f18-b4af-1bced01b4d7e" />
+
+# Software
+
+## Configure Remote GPIO to Start With Raspberry Pi at Boot Time
+- Install pigpio
+sudo apt install pigpio
+
+- Automate Running at Boot Time
+sudo systemctl start pigpiod
+sudo systemctl enable pigpiod
+
+- Disable Local 
+sudo systemctl stop pigpiod
+sudo systemctl edit pigpiod
+  remove -l
+sudo systemctl daemon reload
+
